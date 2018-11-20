@@ -1,2 +1,53 @@
 2018/11/20 12:03:30 [notice] 16476#18472: signal process started
 2018/11/20 12:03:43 [notice] 2680#13732: signal process started
+2018/11/20 17:01:51 [error] 6136#12000: *1 failed to load external Lua file "./lua/limit_conn.lua": cannot open ./lua/limit_conn.lua: No such file or directory, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:02:46 [notice] 14000#16052: signal process started
+2018/11/20 17:02:48 [error] 15144#15220: *1 failed to load external Lua file "./../../src/lua/limit_conn.lua": cannot open ./../../src/lua/limit_conn.lua: No such file or directory, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:02:50 [error] 15144#15220: *2 failed to load external Lua file "./../../src/lua/limit_conn.lua": cannot open ./../../src/lua/limit_conn.lua: No such file or directory, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:02:50 [error] 15144#15220: *3 failed to load external Lua file "./../../src/lua/limit_conn.lua": cannot open ./../../src/lua/limit_conn.lua: No such file or directory, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:03:01 [notice] 8868#2688: signal process started
+2018/11/20 17:03:06 [error] 8352#12456: *1 failed to load external Lua file "./limit_conn.lua": cannot open ./limit_conn.lua: No such file or directory, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:03:06 [error] 8352#12456: *2 failed to load external Lua file "./limit_conn.lua": cannot open ./limit_conn.lua: No such file or directory, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:03:07 [error] 8352#12456: *3 failed to load external Lua file "./limit_conn.lua": cannot open ./limit_conn.lua: No such file or directory, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:03:27 [notice] 15496#16760: signal process started
+2018/11/20 17:04:01 [notice] 15824#7568: signal process started
+2018/11/20 17:04:02 [error] 4604#16856: *1 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:04:47 [notice] 7132#2308: signal process started
+2018/11/20 17:04:51 [error] 3572#1436: *1 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:04:51 [error] 3572#1436: *2 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:04:52 [error] 3572#1436: *3 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:04:54 [notice] 9112#17128: signal process started
+2018/11/20 17:05:29 [error] 8648#4700: *1 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:05:31 [error] 8648#4700: *2 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:06:04 [notice] 2220#6188: signal process started
+2018/11/20 17:06:04 [notice] 11044#1468: signal process started
+2018/11/20 17:06:08 [error] 17208#13264: *1 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:06:09 [error] 17208#13264: *2 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:06:10 [error] 17208#13264: *3 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:06:13 [notice] 12528#8604: signal process started
+2018/11/20 17:06:41 [error] 15752#8952: *1 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:06:42 [error] 15752#8952: *2 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:06:46 [notice] 7256#6912: signal process started
+2018/11/20 17:07:15 [error] 2072#6608: *1 attempt to set status 500 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_count HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:10:56 [notice] 10508#9960: signal process started
+2018/11/20 17:32:21 [notice] 11032#5596: signal process started
+2018/11/20 17:33:03 [notice] 1008#15792: signal process started
+2018/11/20 17:33:05 [error] 16884#17332: *1 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:35:31 [emerg] 7108#13960: unknown directive "C:/Users/root/Desktop/openresty-1.13.6.2-win64/src/lua/limit_req.lua" in ./conf/conf.d/lua_test.conf:34
+2018/11/20 17:35:31 [emerg] 7840#14576: unknown directive "C:/Users/root/Desktop/openresty-1.13.6.2-win64/src/lua/limit_req.lua" in ./conf/conf.d/lua_test.conf:34
+2018/11/20 17:35:34 [emerg] 2668#11332: unknown directive "C:/Users/root/Desktop/openresty-1.13.6.2-win64/src/lua/limit_req.lua" in ./conf/conf.d/lua_test.conf:34
+2018/11/20 17:35:34 [emerg] 16352#10680: unknown directive "C:/Users/root/Desktop/openresty-1.13.6.2-win64/src/lua/limit_req.lua" in ./conf/conf.d/lua_test.conf:34
+2018/11/20 17:35:35 [emerg] 8216#4700: unknown directive "C:/Users/root/Desktop/openresty-1.13.6.2-win64/src/lua/limit_req.lua" in ./conf/conf.d/lua_test.conf:34
+2018/11/20 17:35:39 [notice] 12844#7060: signal process started
+2018/11/20 17:35:45 [error] 16884#17332: *2 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:35:46 [error] 16884#17332: *3 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:36:04 [notice] 9180#7712: signal process started
+2018/11/20 17:36:05 [emerg] 17184#12780: unexpected "}" in ./conf/conf.d/lua_test.conf:36
+2018/11/20 17:36:12 [error] 16884#17332: *4 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:36:13 [error] 16884#17332: *5 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:36:14 [error] 16884#17332: *6 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:37:55 [error] 16884#17332: *7 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:40:25 [notice] 1176#1396: signal process started
+2018/11/20 17:42:15 [error] 16884#17332: *8 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
+2018/11/20 17:44:25 [notice] 11412#2792: signal process started
+2018/11/20 17:45:21 [notice] 1276#9716: signal process started
