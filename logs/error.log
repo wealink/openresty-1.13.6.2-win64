@@ -51,3 +51,184 @@
 2018/11/20 17:42:15 [error] 16884#17332: *8 attempt to set status 503 via ngx.exit after sending out the response status 200, client: 192.168.30.22, server: 0.0.0.0, request: "GET /limit_req HTTP/1.1", host: "192.168.20.8"
 2018/11/20 17:44:25 [notice] 11412#2792: signal process started
 2018/11/20 17:45:21 [notice] 1276#9716: signal process started
+2018/11/26 14:35:12 [notice] 18140#16068: signal process started
+2018/11/26 14:35:13 [notice] 18952#20028: signal process started
+2018/11/26 14:36:30 [notice] 12764#14188: signal process started
+2018/11/26 14:37:31 [error] 12300#7404: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/redis"
+2018/11/26 14:38:03 [notice] 6200#19664: signal process started
+2018/11/26 14:38:19 [notice] 20188#13056: signal process started
+2018/11/26 14:38:35 [notice] 17092#1952: signal process started
+2018/11/26 14:38:48 [notice] 12184#16992: signal process started
+2018/11/26 14:39:53 [error] 14544#20028: *17 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 14:40:53 [error] 14544#20028: *17 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 14:41:53 [error] 14544#20028: *17 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 14:42:53 [error] 14544#20028: *17 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 14:58:31 [notice] 17464#14720: signal process started
+2018/11/26 14:59:01 [notice] 19868#12428: signal process started
+2018/11/26 14:59:57 [notice] 11244#18868: signal process started
+2018/11/26 15:01:05 [error] 8232#2096: *11 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 15:02:05 [error] 8232#2096: *11 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 15:03:05 [error] 8232#2096: *11 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 15:03:38 [notice] 14880#15972: signal process started
+2018/11/26 15:03:58 [notice] 11380#6928: signal process started
+2018/11/26 15:05:01 [error] 4836#11100: *7 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 15:05:22 [notice] 9380#11248: signal process started
+2018/11/26 15:06:23 [error] 18896#10680: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 15:07:23 [error] 18896#10680: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 15:08:23 [error] 18896#10680: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 15:09:23 [error] 18896#10680: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.10.2, server: 0.0.0.0, request: "GET /favicon.ico HTTP/1.1", upstream: "http://[::1]:8080/favicon.ico", host: "192.168.10.2", referrer: "http://192.168.10.2/ip_blacklist"
+2018/11/26 15:14:00 [notice] 14492#17200: signal process started
+2018/11/26 15:15:56 [notice] 20428#6208: signal process started
+2018/11/26 15:16:00 [error] 1372#17304: *1 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:49: bad argument #1 to 'ipairs' (table expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'ipairs'
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:49: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:16:19 [notice] 13448#4588: signal process started
+2018/11/26 15:17:13 [notice] 5468#15912: signal process started
+2018/11/26 15:17:17 [error] 10724#14240: *3 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:17:18 [error] 10724#14240: *4 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:17:18 [error] 10724#14240: *5 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:17:19 [error] 10724#14240: *6 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:17:19 [error] 10724#14240: *7 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:00 [notice] 14492#3636: signal process started
+2018/11/26 15:18:03 [error] 20044#18672: *3 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:04 [error] 20044#18672: *4 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:05 [error] 20044#18672: *5 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:05 [error] 20044#18672: *6 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:07 [notice] 17384#12428: signal process started
+2018/11/26 15:18:13 [error] 18952#20032: *3 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:19 [error] 18952#20032: *4 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:20 [error] 18952#20032: *5 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:21 [error] 18952#20032: *6 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:21 [error] 18952#20032: *7 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:18:22 [error] 18952#20032: *8 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:20:49 [notice] 12888#19812: signal process started
+2018/11/26 15:21:01 [error] 12740#1344: *3 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:21:27 [notice] 4892#18212: signal process started
+2018/11/26 15:21:29 [error] 18336#3292: *3 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:21:30 [error] 18336#3292: *4 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:21:31 [error] 18336#3292: *5 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:21:31 [error] 18336#3292: *6 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:22:51 [error] 18336#3292: *7 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:22:52 [error] 18336#3292: *8 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:22:52 [error] 18336#3292: *9 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:22:54 [notice] 17464#13452: signal process started
+2018/11/26 15:24:50 [error] 7968#5160: *3 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:25:30 [notice] 14664#5016: signal process started
+2018/11/26 15:25:33 [error] 17020#18652: *3 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:25:35 [error] 17020#18652: *4 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:25:36 [error] 17020#18652: *5 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:25:36 [error] 17020#18652: *6 lua entry thread aborted: runtime error: ...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:41: attempt to perform arithmetic on global 'ttl' (a nil value)
+stack traceback:
+coroutine 0:
+	...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua: in function <...esktop/openresty-1.13.6.2-win64/src/lua/ip_blacklist.lua:1>, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 15:26:16 [notice] 13716#14152: signal process started
+2018/11/26 16:15:34 [notice] 13584#3280: signal process started
+2018/11/26 16:15:56 [notice] 11488#6340: signal process started
+2018/11/26 16:18:04 [notice] 4360#2424: signal process started
+2018/11/26 16:18:43 [notice] 9732#11380: signal process started
+2018/11/26 16:21:22 [notice] 16516#16388: signal process started
+2018/11/26 16:21:26 [error] 17020#11104: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 16:22:22 [notice] 7760#13124: signal process started
+2018/11/26 16:22:24 [error] 7968#14836: *1 lua entry thread aborted: runtime error: expecting one argument
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 16:22:26 [error] 7968#14836: *3 lua entry thread aborted: runtime error: expecting one argument
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 16:22:27 [error] 7968#14836: *4 lua entry thread aborted: runtime error: expecting one argument
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 16:22:27 [error] 7968#14836: *5 lua entry thread aborted: runtime error: expecting one argument
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 16:22:35 [notice] 8200#14312: signal process started
+2018/11/26 16:22:37 [error] 10472#16628: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 192.168.30.32, server: 0.0.0.0, request: "GET /ip_blacklist HTTP/1.1", host: "192.168.10.2"
+2018/11/26 16:22:44 [notice] 10928#16996: signal process started
+2018/11/26 16:28:30 [notice] 16588#11556: signal process started
